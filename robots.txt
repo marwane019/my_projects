@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://marwane019.github.io/sitemap.xml

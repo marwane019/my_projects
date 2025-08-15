@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marwane Bakkali Hassani — Portfolio</title>
+  <meta name="description" content="Clean ML, physics sims, and elegant tools.">
+  <meta name="theme-color" content="#0a0f1a">
+  <link rel="manifest" href="manifest.json">
+  <meta property="og:title" content="Marwane Bakkali Hassani — Portfolio">
+  <meta property="og:description" content="Clean ML, physics sims, and elegant tools.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/gravity_trajectory.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Marwane Bakkali Hassani", "jobTitle": "Computer Science Graduate", "url": "https://marwane019.github.io", "sameAs": ["https://github.com/marwane019", "https://www.linkedin.com/in/marwane019"]}</script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container">
+      <h1>Marwane Bakkali Hassani</h1>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle" class="btn ghost" aria-label="Toggle theme">Theme</button>
+        <a class="btn" href="#">Download CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero container">
+    <h2>Clean ML, sharp sims, and elegant tools.</h2>
+    <p>London-based CS graduate. I ship fast, readable, tested code. GitHub: <a href="https://github.com/marwane019" target="_blank" rel="noopener">marwane019</a>.</p>
+    <div class="cta-row">
+      <a class="btn" href="#projects">See Work</a>
+      <a class="btn ghost" href="mailto:marwane.dev@proton.me">Hire Me</a>
+    </div>
+  </section>
+
+  <section id="projects" class="projects container">
+    <h3>Featured Projects</h3>
+    <div class="grid">
+      <a class="card" href="../projects/titanic_api/README.md">
+        <img src="assets/titanic_thumb.svg" alt="Titanic API" />
+        <h4>Titanic API</h4>
+        <p>End-to-end ML + FastAPI + Docker. SHAP-ready, CI hooks.</p>
+        <span>Python · scikit-learn · FastAPI</span>
+      </a>
+      <a class="card" href="../projects/gravitysim_numba/README.md">
+        <img src="assets/gravity_trajectory.png" alt="N-body trajectories" />
+        <h4>GravitySim (Numba)</h4>
+        <p>N-body with leapfrog integrator and energy-safe updates.</p>
+        <span>Python · Numba · Matplotlib</span>
+      </a>
+      <a class="card" href="../projects/jd_matcher_streamlit/README.md">
+        <img src="assets/jd_matcher_thumb.svg" alt="JD CV Matcher" />
+        <h4>JD↔CV Matcher</h4>
+        <p>TF–IDF similarity + missing keyword radar. Streamlit UI.</p>
+        <span>Python · NLP · Streamlit</span>
+      </a>
+      <a class="card" href="../projects/cmb_spectrum/README.md">
+        <img src="assets/cmb_spectrum.png" alt="CMB spectrum" />
+        <h4>CMB Spectrum</h4>
+        <p>Sachs–Wolfe toy model with quick plots.</p>
+        <span>Python · NumPy · Matplotlib</span>
+      </a>
+      <a class="card" href="../projects/pathfinding_js/index.html">
+        <img src="assets/path_thumb.svg" alt="Pathfinding Visualizer" />
+        <h4>Pathfinding Visualizer</h4>
+        <p>Live A* vs Dijkstra on a grid, in-browser.</p>
+        <span>JavaScript · Canvas</span>
+      </a>
+      <a class="card" href="../projects/cmb_web/index.html">
+        <img src="assets/cmb_web_thumb.svg" alt="CMB Web Interactive" />
+        <h4>CMB Web (Interactive)</h4>
+        <p>In-browser Sachs–Wolfe spectrum with sliders.</p>
+        <span>JavaScript · Canvas</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery container">
+    <h3>Gallery</h3>
+    <div class="grid gallery-grid">
+      <figure><img src="assets/gravity_trajectory.png" alt="N-body" /><figcaption>N-body trajectories (Numba)</figcaption></figure>
+      <figure><img src="assets/cmb_spectrum.png" alt="CMB" /><figcaption>CMB Sachs–Wolfe (toy)</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="skills" class="skills container">
+    <h3>Skills</h3>
+    <ul class="chips">
+      <li>Python</li><li>Pandas</li><li>scikit-learn</li><li>FastAPI</li>
+      <li>NumPy</li><li>SciPy</li><li>Matplotlib</li><li>Numba</li>
+      <li>Git</li><li>Docker</li><li>CI/CD</li><li>Streamlit</li>
+      <li>JavaScript</li><li>Canvas</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact container">
+    <h3>Contact</h3>
+    <p>Email: <a href="mailto:marwane.dev@proton.me">marwane.dev@proton.me</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/marwane019" target="_blank" rel="noopener">linkedin.com/in/marwane019</a></p>
+  </section>
+
+  <footer class="footer">
+    <div class="container">© 2025 Marwane Bakkali Hassani</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
